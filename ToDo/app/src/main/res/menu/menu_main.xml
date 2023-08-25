@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_delete_all_tasks"
+        android:title="Delete All Tasks"
+        android:orderInCategory="100"
+        app:showAsAction="withText" />
+
+    <item android:id="@+id/action_view_completed_tasks"
+        android:title="View Complete Tasks"
+        android:orderInCategory="102"
+        android:icon="@drawable/complete"
+        app:showAsAction="always" />
+</menu>

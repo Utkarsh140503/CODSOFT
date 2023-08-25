@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/xyz">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Added Favorites"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@drawable/black_border"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:padding="16dp"/>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/emptyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/empty"
+        android:elevation="8dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/favoritesListView"
+        android:background="@drawable/black_border"
+        android:padding="30px"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="20px"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
