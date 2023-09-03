@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mountain"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_message_24"
+        android:background="@drawable/background"
+        android:padding="30px"
+        android:drawablePadding="8dp"
+        android:textColorHint="@color/black"
+        android:hint="Enter notification text" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/selectImageBtn"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/select"
+        android:elevation="8dp"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="4dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagePreview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/selectImageBtn"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/notify"
+        android:elevation="8dp"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="4dp" />
+
+    <ImageButton
+        android:id="@+id/clearImageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_delete"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Clear Image"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imagePreview"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/showNotificationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Notification"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/clearImageBtn"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:id="@+id/developerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sdffsd" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/background"
+            android:padding="20px"
+            android:text="Developed by Utkarsh!"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

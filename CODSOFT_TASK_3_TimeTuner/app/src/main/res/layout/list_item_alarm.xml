@@ -1,0 +1,32 @@
+<!-- res/layout/list_item_alarm.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:id="@+id/alarmTimeTextView"
+        android:layout_width="0dp"
+        android:padding="30px"
+        android:drawableLeft="@drawable/alarm"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/whiteblack"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Alarm Time"
+        android:textSize="18sp"/>
+
+    <Button
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SmallTimePicker" parent="android:Widget.Material.TimePicker">
+        <item name="android:layout_width">110dp</item> <!-- Adjust the width as needed -->
+        <item name="android:layout_height">110dp</item> <!-- Adjust the height as needed -->
+    </style>
+</resources>

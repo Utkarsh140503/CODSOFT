@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Time Tuner</string>
+    <string-array name="alarm_sounds">
+        <item>Alarm Sound 1</item>
+        <item>Alarm Sound 2</item>
+        <!-- Add more alarm sounds as needed -->
+    </string-array>
+</resources>

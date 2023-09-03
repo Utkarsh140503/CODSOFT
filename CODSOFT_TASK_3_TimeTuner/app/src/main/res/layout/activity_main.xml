@@ -1,0 +1,60 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alarmbg"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm Time"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/alarm"
+        android:drawablePadding="8dp"
+        android:background="@drawable/whiteblack"
+        android:padding="30px"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:background="@drawable/whiteblack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleX="0.85"
+        android:scaleY="0.85" />
+
+    <Button
+        android:id="@+id/setAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:onClick="setAlarm"/>
+
+
+    <ListView
+        android:id="@+id/alarmListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whiteblack"
+        android:padding="30px"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/stopAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Alarm"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</LinearLayout>
