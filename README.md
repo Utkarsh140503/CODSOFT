@@ -73,7 +73,7 @@ Enhance your notification game with Notify. Download now and take control of you
 
 ## Developer
 
-These projects were developed by Utkarsh Mishra. You can find more about the developer and explore their portfolio at [Utkarsh Mishra's Portfolio](https://utkarsh140503.github.io/Portfolio/).
+These projects were developed by Utkarsh Mishra. You can find more about the developer and explore the portfolio at [Utkarsh Mishra's Portfolio](https://utkarsh140503.github.io/Portfolio/).
 
 ## License
 
